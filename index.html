@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Thomas Besnard's profile</title>
+		<meta name="description" content="this is my profile">
+		<link rel="stylesheet" href="style.css">
+		<script>
+			window.onload = function() {
+				document.getElementById("buttonForDark").onclick = function() {
+					document.getElementsByTagName("head")[0].getElementsByTagName("link")[0].href = "dark.css";
+				}
+
+				document.getElementById("buttonForLight").onclick = function() {
+					document.getElementsByTagName("head")[0].getElementsByTagName("link")[0].href = "style.css";
+				}
+			};
+		</script>
+	</head>
+
+	<body>
+		<div class="resume"> 
+			<div class="first-section">
+				<div class="face">
+					<h1>Bonjour c'est Thomas </h1>
+					<img id="pic" src="images/photo.jpg"alt="photo">
+				</div>
+
+				<p> Passionné par le sport j'aime : les challenges, les contacts, le travail en équipe. Créatif, je suis force de proposition pour trouver des solutions innovantes.</p>
+				<a href="http://www.emlv.fr" target="_blank">Discover EMLV</a>
+			</div>
+
+			<div class="section">
+				<h2>Parcours scolaire</h2>
+				<ul>
+					<li>Etudiant 1 ère année école de management 
+					école de management pôle unviversitaire Léonard de Vinci (EMLV), la défense
+					(2020-2021)
+					formation soft skills ssavoir vendre ses idées</li>
+					<li> Lycée Evariste Galoie
+					Sartrouville 78500
+					2019-2020 terminale ES spécialité mathématique
+					2018-2019 première ES
+					2017-2018 seconde générale </li>
+					<li>Collège Jean Cocteau 
+					maisons-Laffitte
+					2014-2017</li>
+				</ul>
+			</div>	
+
+			<div class="section">
+				<h2>Activités et autres formations</h2>
+				<p><strong>Triathlon</strong> licencié au club de Sartrouville depuis 4ans. Participation à des compétitions régionnales et nationales. Champion départemental de bike and run (2019), sélectionné aux chamionnats de France de duathlon (2020).</p>
+				<p> <strong>cyclisme</strong>, passionné de cyclisme sur route et vtt.</p>
+				<p> <strong>Guitare</strong>, diplomé du conservatoire (5ans) municipal de Maisons-Laffitte.</p>
+				<p><strong>PSC 1</strong>, obtenu en 2016</p>
+				<p><strong>Formation aux gestes qui sauvent</strong>, obtenu en 2017</p>
+			</div>
+
+			<div class="section">
+				<h2>Expériences</h2>
+				<p><strong>stage</strong><br><br>
+				Avril 2018 dans l'association les petits frères des pauvres (Paris 10°)
+				au sein du service développement international
+				<ul>
+					<li>création d'animation de rencontre</li>
+					<li>création de suspports de badges ainsi que leur design</li>
+				</ul>
+				</p>
+				<p><strong>Participation à des actions caritatives:</strong>
+				<li>2 participations à la course <em>d'action contre la faim</em> (2014 et 2015).</li>
+				<li>2 participations à des voyages a vélo au profit de l'association <em>Songtaba</em>.</li>
+				<li>Collecte de nourriture dans un super marché pour la <em>banque alimentaire</em> (2017).</p></li>
+			</div>
+
+			<div class="section">
+				<h2>Informatique et langues</h2>
+				<ul>
+					<li> utilisation des outils informatique :EXcel, Power point, Word, Teams, Zoom </li>
+					<li>formation au codage ( le wagon)</li>
+					<li>Anglais (LV1) niveau B1,voyage linguistique (été 2019)</li>
+					<li>Espagnol (LV2)</li>
+				</ul>
+			</div>
+			<div class="contact">
+				<h2>Contact</h2>
+				<a href="mailto:thomas.besnard@edu.devinci.fr">thomas.besnard@edu.devinci.fr</a>
+			</div>
+ 		</div>
+ 		<button id="buttonForDark">Dark mode</button><button id="buttonForLight">Light mode</button>
+	</body>
+
+</html>
